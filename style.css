@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* hero part css start */
+.btn {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    Font-size: 17px;
+   
+    padding: 21px 24px 21px 24px;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+.contract-btn 
+{
+    display: flex;
+    justify-content: center;
+}
+#hero{
+    height: 600px;
+    background: url("../project 1/assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hero .hero-content {
+   width: 940px;
+
+}
+#hero .hero-content .hero_img{
+    display: flex;
+    justify-content: center;
+ 
+ }
+#hero .hero-content .title{
+    font-family: "Azeret Mono", monospace;
+font-weight: 700;
+Font-size: 36px;
+text-align: center;
+color: rgb(13, 19, 33);
+line-height: 58px;
+
+
+}
+
+#hero .hero-content .sub-title {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 400;
+    Font-size: 13px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    line-height: 24px;
+    color: rgb(72 83 107);
+}
+/* hero part end  */
