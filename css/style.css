@@ -301,7 +301,7 @@ margin-bottom: 80px;
     height: 400px;
     margin-right: 200px;
     margin-left: 200px;
-    background: url("../1st-project/assets/handshake.jpg");
+    background: url("./assets/handshake.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
