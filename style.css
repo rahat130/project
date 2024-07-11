@@ -4,10 +4,41 @@
 *{
     margin: 0;
     padding: 0;
-
+    list-style-type: none;
 }
+/* header partstart */
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#header .header_text h2{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+    Font-size: 38px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+#header  .header_btn
+    {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: "Azeret Mono", monospace;
+        font-weight: 700;
+        Font-size: 17px;
+        
+        color: #756f6f;
+  
+        border-radius: 8px;
+        background: transparent;
+        border:2px solid #756f6f;
+        padding: 15px 10px  15px 10px;
+        margin-right: 200px;
+    }
+/* headerpart end */
 /* hero part css start */
 .btn {
+
     font-family: "Azeret Mono", monospace;
     font-weight: 700;
     Font-size: 17px;
@@ -94,7 +125,7 @@ line-height: 58px;
    margin-top: 18px;
    margin-bottom: 18px;
    line-height: 24px;
-   color: rgb(117, 111, 111);
+   color: #756f6f;
 
 
 }
@@ -220,6 +251,10 @@ padding-left: 80px;
   margin-bottom: 80px;
    
 }
+#target .next_targets .targets_are ::nth-child(even) {
+    background: lightgreen;
+  
+  }
 #arget .next_targets .targets_are .ntarget_text{
     margin-bottom: 70px;
 }
@@ -309,6 +344,7 @@ margin-bottom: 80px;
     background:#f9f9f9;
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom: 100px;
 }
 #dev .dev_text .d_heading{
     padding-top: 100px;
@@ -384,3 +420,29 @@ margin-bottom: 40px;
     color: rgb(117, 111, 111);
 }
 /* devpartend */
+/* footer start */
+#footer{
+    margin-top: 70px;
+   padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #e3e3e3;
+  height: 100px;
+}
+#footer .footer_text h2{
+    font-family: "Azeret Mono", monospace;
+    font-weight: 600;
+    Font-size: 26px;
+    padding-left: 200px;
+    padding-top: 9px;
+}
+#footer .footer_links ul{
+    padding-right: 200px;
+    padding-top: 20x;
+}
+#footer .footer_links ul li{
+    margin-top: 15px;
+    display: inline;
+    padding-right: 20px;
+}
+/* footer end */
