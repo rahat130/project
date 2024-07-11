@@ -56,7 +56,7 @@
 }
 #hero{
     height: 600px;
-    background: url("../1st-project/assets/Hero-bg.png");
+    background: url("./assets/Hero-bg");
     background-size: cover;
     background-position: center;
     display: flex;
